@@ -1,8 +1,8 @@
 {
   "name": "fantasista21jp/hard_mail_check",
   "autoload": {
-    "psr-0": {
-      "HardMailCheck": "."
+    "psr-4": {
+      "HardMailCheck\\": "src/"
     }
   }
 }
