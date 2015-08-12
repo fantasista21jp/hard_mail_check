@@ -217,8 +217,8 @@ class HardMailCheck
      * @return bool
      */
     public function existsEmail($email, $mailServer, $fromEmail) {
-        $errno;
-        $errstr;
+        $errno = null;
+        $errstr = null;
         $socket = fsockopen($mailServer, 25, $errno, $errstr, 60);
         if (!$socket) {
             return false;
